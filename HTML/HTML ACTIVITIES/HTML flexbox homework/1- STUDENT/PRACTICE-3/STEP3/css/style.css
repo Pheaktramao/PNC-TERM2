@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    border: none;
+    text-decoration: none;
+}
+body{
+    height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid teal;
+    /* height: 100vh; */
+
+}
+.logo{
+    flex: 1;
+    padding: 1em;
+    background: hotpink;
+}
+.center-nav{
+    flex: 1;
+    padding: 1em;
+    background: khaki;
+}
+.nav-right{
+    flex: 1;
+    padding: 1em;
+    background: lightblue;
+}
+.container{
+    flex: 2;
+    background: sandybrown;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    flex: 1;
+    background: lightcoral;
+}
+aside{
+    flex: 2;
+    background: coral;
+}

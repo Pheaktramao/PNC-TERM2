@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+nav{
+    padding: 20px;
+    background: green;
+}
+head{
+    padding: 20px;
+    background: greenyellow;
+}
+main{
+    flex: 1;
+    background: blueviolet;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <div class="form-header">
+            <h2>CREATE ACCOUNT</h2>
+        </div>
+        <div class="form-body">
+            <div class="user">
+                <div class="first">
+                    <input type="text" id="firstname" placeholder="First Name">
+                </div>
+                <div class="last">
+                    <input type="text" id="lastname" placeholder="Last Name">
+                </div>
+            </div>
+            <div class="user-email">
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="user">
+                <div class="first">
+                    <input type="password" id="password" placeholder="Password">
+                </div>
+                <div class="last">
+                    <input type="password" id="confirm-pw" placeholder="Confirm Password">
+                </div>
+            </div>
+            <div class="genders">
+                <label for="gender">Gender:</label>
+                <input type="radio" id="gender" value="male">Male
+                <input type="radio" id="gender" value="female">Female
+                <input type="radio" id="gender" value="other">Other
+            </div>
+            <div class="user-month">
+                <input type="box" id="box" placeholder="mm/dd/yyyy">
+            </div>
+            <div class="user-subject">
+                <label for="subjects">Subjects:</label>
+                <input type="checkbox" id="subjects" value="HTML">HTML
+                <input type="checkbox" id="subjects" value="CSS">CSS
+                <input type="checkbox" id="subjects" value="Algorithm">Algorithm
+                <input type="checkbox" id="subjects" value="English">English
+            </div>
+            <div class="upload">
+                <input type="file" id="file">
+            </div>
+            <div class="user-fav">
+                <select id="fav">
+                    <option selected disabled>Choose your favorite fruits</option>
+                    <option name="fav" value="Apple">Apple</option>
+                    <option name="fav" value="Orange">Orange</option>
+                    <option name="fav" value="Pineapple">Pineapple</option>
+                    <option name="fav" value="Blueberry">Blueberry</option>
+                </select>
+            </div>
+        </div>
+        <div class="form-footer">
+            <button id="creat-btn" type="submit">REGISTER NOW</button>
+        </div>
+    </form>
+</body>
+</html>

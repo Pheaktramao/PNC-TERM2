@@ -1,0 +1,31 @@
+*{
+    height: 20vh;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+footer{
+    display: flex;
+
+}
+.left{
+    background: plum;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center{
+    background: violet;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    background-color: rgb(145, 46, 145);
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

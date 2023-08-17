@@ -1,0 +1,64 @@
+/* body{
+    color: red;
+}
+ul{
+    color: blue;
+} */
+/* div + ul {
+    color: brown;
+    background: burlywood;
+}  */
+
+/* div ul li{
+    color: greenyellow;
+    border: 20px dotted gray;
+    background: cadetblue;
+}
+body ul:nth-child(2){
+    color: green;
+} */
+/* div ul li:nth-child(1){
+    color: brown;
+}
+div ul li:nth-child(2){
+    color: green;
+}
+div ul li:nth-child(3){
+    color: orangered; */
+/* }
+* {
+    color: green;
+    
+} */
+
+/* h1, p, h3{
+    background: pink;
+} */
+[href]{
+    text-decoration: none;
+}
+.gg{
+    padding: 15px;
+    border: 2px solid pink;
+}
+.master{
+    padding: 20px;
+    border: 4px solid gray;
+}
+.test{
+    padding: 10px;
+}
+.gg{
+    border: 1px solid greenyellow;
+}
+.master{
+    border: 1px solid pink;
+}
+::selection{
+    background: pink;
+    color: antiquewhite;
+}
+p{
+    user-select: none;
+}
+

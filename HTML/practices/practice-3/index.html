@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice 3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form>
+        <div class="form-header">
+            <h1>Create Account</h1>
+        </div>
+        <div class="form-body">
+            <div class="user-name">
+                <div class="first-name">
+                    <label>First name*</label>
+                    <input type="text" placeholder="enter your first name">
+                </div>
+                <div class="last-name">
+                    <label>Last name</label>
+                    <input type="text" placeholder="enter your last name">
+                </div>
+            </div>
+            <div class="user-email">
+                <label>Email*</label>
+                <input type="email" placeholder="enter your email">
+            </div>
+            <div class="user-pw">
+                <div class="pw">
+                    <label>Password*</label>
+                    <input type="password" placeholder="enter your password">
+                </div>
+                <div class="confirm-pw">
+                    <label>Confirm password*</label>
+                    <input type="text" placeholder="enter your password again">
+                </div>
+            </div>
+            <div class="user-information">
+                <div class="genders">
+                    <label>Gender:</label>
+                    <div class="list-gender">
+                        <div class="male">
+                            <input type="radio">
+                            <label>Male</label>
+                        </div>
+                        <div class="female">
+                            <input type="radio">
+                            <label>Female</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="hobbies">
+                    <label>Hobbies</label>
+                    <div class="list-hobbies">
+                        <div class="hobby">
+                            <input type="checkbox">
+                            <label>Music</label>
+                        </div>
+                        <div class="hobby">
+                            <input type="checkbox">
+                            <label>Sport</label>
+                        </div>
+                        <div class="hobby">
+                            <input type="checkbox">
+                            <label>Travel</label>
+                        </div>
+                        <div class="hobby">
+                            <input type="checkbox">
+                            <label>Movies</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="user-finance">
+                <div class="careers">
+                    <label>Source of Income</label>
+                    <select>
+                        <option selected disabled>Select one career</option>
+                        <option>Software Developer</option>
+                        <option>Architect</option>
+                        <option>Accountant</option>
+                        <option>Electrician</option>
+                        <option>Management</option>
+                        <option>Civil Engineer</option>
+                    </select>
+                </div>
+                <div class="income">
+                    <label>Income</label>
+                    <div class="range-income">
+                        <input type="range" min="0" max="20000">
+                        <span>20K</span>
+                    </div>
+                </div>
+            </div>
+            <div class="user-info">
+                <div class="user-profile">
+                    <label>Upload Profile Picture</label>
+                    <input type="file">
+                </div>
+                <div class="user-age">
+                    <label>Age</label>
+                    <input type="number" placeholder="enter your age">
+                </div>
+            </div>
+            <div class="user-bio">
+                <label>Bio</label>
+                <textarea name="" id="" cols="15" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="form-footer">
+            <button>Create</button>
+        </div>
+    </form>
+</body>
+</html>

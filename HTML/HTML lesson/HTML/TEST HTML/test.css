@@ -1,0 +1,29 @@
+div{
+    color:black;
+}
+ul{
+    background-color: chartreuse;
+    color: rgb(15, 16, 17);
+}
+q{
+    font-family: fantasy;
+}
+body{
+    background-color: rgb(17, 22, 22);
+}
+
+.oo {
+    background-color: brown;
+    width: 300px;
+    height: 100px;
+}
+.pp {
+    background-color: chocolate;
+    width: 290px;
+    height: 88px;
+}
+.rr {
+    background-color: cornsilk;
+    width: 280px;
+    height: 77px;
+}

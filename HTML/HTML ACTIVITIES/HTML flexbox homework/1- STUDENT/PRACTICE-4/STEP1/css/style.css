@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    flex: 0.3;
+    background: teal;
+}
+main{
+    flex: 2;
+    background: green;
+}

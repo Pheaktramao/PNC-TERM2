@@ -1,0 +1,49 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    background-color: orange;
+}
+li{
+    text-transform: uppercase;
+    padding: 17px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+h1{
+    text-transform: uppercase;
+}
+.container{
+    width: 90%;
+    margin: auto;
+    margin-top: 100px;
+}
+.box{
+    width: auto;
+    margin: 23%;
+    border-radius: 10px;
+
+}
+.img{
+    width: 100%;
+    margin: 23%;
+    margin-top: 100%;
+}
+.content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+p{
+    line-height: 1.5;
+}
+.text{
+    padding: 10px;
+}

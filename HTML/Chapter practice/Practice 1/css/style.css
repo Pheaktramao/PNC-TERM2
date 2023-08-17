@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: honeydew;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    /* border: 1px solid #000;
+    border-radius: 10px; */
+}
+.form-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.username{
+    display: flex;
+    gap: 10px;
+}
+input[type="text"]{
+    padding: 5px;
+    background: gray;
+    border: 2px solid purple;
+}
+.Gender{
+    display: flex;
+    gap: 20px;
+}
+.favorite{
+    display: flex;
+    flex-direction: column;
+}
+input[type="chekbox"]{
+    margin-left: 70px;
+}

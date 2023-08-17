@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+body{
+    height: 100vh;
+    background: thistle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+img{
+    width: 100px;
+    margin-top: 30px;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+.form-left{
+    width: 30%;
+    height: 80vh;
+    border-radius: 10px 0 0 10px;
+    background: teal;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-left p{
+    color: white;
+}
+/* __________form-right_______________ */
+.form-right{
+    width: 50%;
+    height: 80vh;
+    border-radius: 0 10px 10px 0;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.form-header{
+    padding: 10px;
+    margin-top: 20px;
+    color: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-body{
+    margin: 10px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.check{
+    display: flex;
+    gap: 10px;
+}
+.username input,
+.password input,
+.email input{
+    width: 90%;
+    padding: 15px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+.form-footer{
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    width: 60%;
+    padding: 10px;
+    border: 3px solid teal;
+    border-radius: 20px;
+}
+span{
+    display: flex;
+    margin-left: 10px;
+}

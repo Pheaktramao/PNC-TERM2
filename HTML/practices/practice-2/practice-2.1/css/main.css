@@ -1,0 +1,60 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: pink;
+    background-image: linear-gradient(45deg, white, pink, rgb(246, 159, 174), rgb(255, 145, 163), rgb(255, 93, 255), rgb(228, 3, 228), purple);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    background: white;
+    width: 40%;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+form>* {
+    margin: 20px 10px;
+}
+form div {
+    display: flex;
+    justify-content: space-between;
+}
+form h3 {
+    text-align: center;
+}
+.first-name,
+.last-name,
+.email-address,
+.website-name,
+.message {
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+}
+.message {
+    width: 100%;
+}
+.first-name input,
+.last-name input,
+.email-address input,
+.website-name input,
+.message textarea {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+}
+form button {
+    background: teal;
+    color: white;
+    padding: 5px 25px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}

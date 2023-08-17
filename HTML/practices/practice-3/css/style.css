@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    height: 100vh;
+    background: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+form{
+    width: 45%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.form-header{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border-bottom: 1px solid gray;
+}
+/* ________form-body____________ */
+.form-body{
+    background: white;
+    padding: 10px;
+}
+label{
+    color: teal;
+    font-size: 15px;
+}
+.user-name,
+.user-email,
+.user-pw,
+.user-more-infos,
+.user-information,
+.user-finance,
+.user-bio{
+    margin: 10px;
+}
+.user-name,
+.user-pw,
+.user-information,
+.user-finance{
+    display: flex;
+    justify-content: space-between;
+} 
+
+.user-emial,
+.user-bio,
+.user-age,
+.careers,
+.income{
+    display: flex;
+    flex-direction: column;
+}
+.first-name input,
+.last-name input,
+.user-email input,
+.pw input,
+.confirm-pw input,
+.user-age input{
+    width: 100%;
+    padding: 5px;
+}
+.first-name,
+.last-name,
+.pw,
+.confirm-pw,
+.genders,
+.hobbies,
+.careers,
+.income,
+.user-profile,
+.user-age{
+    width: 49%;
+}
+.user-profile{
+    padding: 10px;
+}
+.list-gender,
+.list-hobbies,
+.user-info{
+    display: flex;
+}
+span{
+    background: teal;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+/* ________form-footer________ */
+.form-footer{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    border-top: 1px solid gray;
+}
+.form-footer button{
+    background: teal;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}

@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    padding: 20px;
+    background: sienna;
+}
+.container{
+    flex: 1;
+    background: sandybrown;
+}

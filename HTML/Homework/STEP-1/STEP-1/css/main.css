@@ -1,0 +1,20 @@
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border:none;
+    outline: none;
+}
+body{
+    display: flex;
+    height: 100vh;
+}
+aside{
+    flex: 0.3;
+    background: gray;
+}
+.content{
+    flex: 1.5;
+    background: palevioletred;
+}

@@ -1,0 +1,99 @@
+body {
+  margin: 10px;
+  font-family: Verdana;
+}
+
+.container {
+  border: 2px solid rgb(244, 89, 89);
+  display: flex;
+}
+.container > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  border: 2px solid rgb(10, 73, 246);
+}
+
+/* .services {
+  margin-left: auto;
+} */
+/* .about{
+  margin-left: auto;
+
+} */
+/* .container > div {
+  flex: 1;
+} */
+/* .home, .about {
+  flex: 1;
+}
+.services   {
+  flex: 2;
+} */
+/* .home {
+  flex: 1;
+}
+.about {
+  flex: 2;
+}
+.services {
+  flex: 3;
+} */
+/* .container > div {
+  flex-basis: 300px;
+}
+
+.about {
+  flex-shrink: 0;
+} */
+/* .container > div {
+  flex-basis: 300px;
+}
+
+.about {
+  flex-grow: 1;
+} */
+/* .container > div {
+  flex-basis: 200px;
+}
+
+.about {
+  flex-grow: 1;
+}
+
+.services {
+  flex-grow: 2;
+} */
+/* .container {
+  height: 200px;
+  align-items: center;
+}
+.about {
+  align-self: flex-start;
+} */
+/* .container {
+  height: 200px;
+  align-items: center;
+}
+
+.about{
+  align-self: flex-end;
+}
+.services{
+  align-self: center;
+}
+.home{
+  align-self: flex-start;
+} */
+/* .container {
+  flex-wrap: wrap;
+}
+.container > div {
+  width: 500px;
+} */
+container {
+  flex-wrap: nowrap;
+}
+.container > div {
+  width: 500px;
+}

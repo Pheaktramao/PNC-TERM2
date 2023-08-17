@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+nav{
+    /* padding: 20px; */
+    background: green;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    flex: 1;
+    padding: 20px;
+    background: brown;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.nav-right{
+    flex: 1;
+    padding: 20px;
+    background: gold;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 10px;
+}
+head{
+    background: greenyellow;
+}
+main{
+    flex: 1;
+    background: blueviolet;
+}

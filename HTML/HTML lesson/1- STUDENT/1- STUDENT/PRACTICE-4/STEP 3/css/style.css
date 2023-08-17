@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+nav{
+    flex: 0.3;
+    background: teal;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-left,
+.nav-right{
+    flex: 1;
+    height: 100px;
+    padding: 10px;
+    background: palegreen;
+}
+.nav-center{
+    flex: 2;
+    height: 100px;
+    padding: 10px;
+    background: paleturquoise;
+}
+.nav-right{
+    flex: 1;
+    background: palegoldenrod;
+}
+main{
+    flex: 2;
+    background: green;
+    display: flex;
+    justify-content: space-around;
+}
+.content-left{
+    flex: 1;
+    background: plum;
+}
+.content-center{
+    flex: 2;
+    background: violet;
+}
+.content-right{
+    flex: 1;
+    background: palevioletred;
+}
