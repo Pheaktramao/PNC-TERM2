@@ -1,0 +1,31 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(https://img.freepik.com/premium-vector/abstract-background-made-halftone-dots-green-colors_444390-7224.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.table-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    /* border: 1px soli white; */
+    
+}
+table{
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+}
+td,th{
+    border-top: 1px solid white;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+tr:nth-child(even){
+    background: rgb(44, 35, 35);
+}

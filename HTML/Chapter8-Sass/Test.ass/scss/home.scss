@@ -1,0 +1,22 @@
+@import "main";
+
+.main-container {
+    height: 75vh;
+    display: flex;
+}
+
+aside {
+    flex: 1;
+    @include text-centered;
+    @include formated-text;
+    background: $tertiary-color;
+    border: 1px solid $primary-color;
+}
+
+.main-content {
+    @include text-centered;
+    @include formated-text;
+    flex: 3;
+    background: $tertirary-color;
+    border: 1px solid $primary-color;
+}

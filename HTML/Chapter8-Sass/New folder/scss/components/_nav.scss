@@ -1,0 +1,30 @@
+@import "./variables";
+@import "./group-mixins";
+nav {
+    @include centered;
+    height: 10vh;
+    background: $primary-color;;
+    justify-content: space-between;
+    div img {
+        width: 70px;
+    }
+    
+    ul {
+        display: flex;
+        width: 30%;
+        justify-content: space-around;
+        a {
+            @include btn;
+            background: $tertiary-color;
+            text-decoration: none;
+            color: $secondary-color;
+            li {
+                list-style: none;
+            }
+        }
+        a:hover {
+            background: $hover-color;
+            color: $quinary-color;
+        }
+    }
+}

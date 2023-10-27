@@ -1,0 +1,37 @@
+/* .icon-color{
+    color: palevioletred;
+    font-size: 50px;
+}
+span{
+    width: 70px;
+    height: 70px;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    background: #000;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+i{
+    font-size: 50px;
+} */
+/* button{
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 200px;
+    background: teal;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 40px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+} */
+.icon-custom{
+    font-size: 100px;
+    color: violet;
+}

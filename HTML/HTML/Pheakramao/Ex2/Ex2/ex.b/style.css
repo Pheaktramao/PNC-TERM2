@@ -1,0 +1,14 @@
+div h1{
+    color: teal;
+    text-align: center;
+}
+p{
+    color: black;
+}
+span{
+    color: purple;
+}
+body{
+    background: pink;
+    font-family: sans-serif;
+}

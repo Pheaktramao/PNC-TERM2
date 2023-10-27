@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: column-reverse;
+}
+nav{
+    background: #ec7b7b;
+    flex: 1;
+}
+.container{
+    display: flex;
+    flex: 2;
+    flex-direction: row-reverse;
+}
+.box-left{
+    background: rgb(211, 53, 79);
+    flex: 1;
+}
+.box-right{
+    background-color: #9b3232;
+    flex: 1;
+}
+.box-center{
+    background-color: antiquewhite;
+    flex: 1;
+}
+footer{
+    background: #b96060;
+    flex: 1;
+}

@@ -1,0 +1,8 @@
+@import 'variable';
+@import 'group-mixins';
+nav {
+  @include text-formatted;
+  background: $nav-bg;
+  grid-area: nav;
+
+}

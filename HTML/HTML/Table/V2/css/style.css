@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.table-container{
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid #000;
+}
+table{
+    width: 100%;
+    padding: 10px;
+    border-collapse: collapse;
+    background: burlywood;
+}
+th,td{
+    border: 1px solid #000;
+    padding: 10px;
+}
+thead tr th{
+    background: orange;
+    color: white;
+    text-align: start;
+}

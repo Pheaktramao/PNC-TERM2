@@ -1,0 +1,23 @@
+.service {
+    @include centered;
+    width: 27%;
+    align-items: flex-start;
+    border: 1px solid $quaternary-color;
+    border-radius: $radiusValue;
+
+    img {
+        width: 100px;
+        width: 100px;
+        z-index: 1;
+        position: absolute;
+        margin: 0;
+    }
+    .service-content{
+        background: $quaternary-color;
+        text-align: center;
+        padding: 20px;
+        padding-top: 50px;
+        margin-top: 70px;
+        border-radius: $radiusValue;
+    }
+}

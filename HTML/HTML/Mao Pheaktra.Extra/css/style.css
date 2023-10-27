@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.table-container{
+    width: 80%;
+    /* border: 1px solid ; */
+    margin: auto;
+    margin-top: 20px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+td,th{
+    border: 1px solid;
+    padding: 10px;
+}
+thead{
+    background: palevioletred;
+}
+tbody{
+    /* background: tan; */
+}
+tbody tr:hover{
+    background: teal;
+    color: white;
+}
+tbody td:nth-child(1){
+    background-color: brown;
+}
+tbody td:nth-child(4){
+    background: greenyellow;
+}

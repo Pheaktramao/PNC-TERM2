@@ -1,0 +1,22 @@
+@import "./components/main";
+@import "./components/service-card";
+
+.about-container {
+    @include centered;
+    padding: 20px 200px;
+    flex-direction: column;
+
+    h3,
+    p,
+    img {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .group-service {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+}

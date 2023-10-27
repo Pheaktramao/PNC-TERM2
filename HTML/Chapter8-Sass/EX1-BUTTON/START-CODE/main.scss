@@ -1,0 +1,34 @@
+@import "variable";
+.btn-primary {
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    background: #0091ff;
+    border-radius: 4px;
+    color: white;
+}
+
+.btn-secondary {
+    @extend .btn-primary;
+    background: $primary-color;
+}
+
+.btn-warning {
+    @extend .btn-primary;
+    background: $secondar-color;
+}
+
+.btn-success {
+    @extend .btn-primary;
+    background: $third-color;
+}
+
+.btn-dark {
+    @extend .btn-primary;
+    background: $forth-color;
+}
+
+.btn-danger {
+    @extend .btn-primary;
+    background: $fith-color;
+}

@@ -1,0 +1,22 @@
+import tkinter as tk
+window=tk.Tk()
+window.geometry("1024x600")
+window.title("Hello world")
+#frame
+frame=tk.Frame(window,width=1024,height=600)
+frame.pack()
+#Shape
+canvas=tk.Canvas(frame,width=1024, height=600)
+canvas.pack()
+canvas.create_rectangle(10,200,250,300,fill="red")
+canvas.create_oval(10,310,100,400,fill="blue")
+canvas.create_rectangle(10,410,100,600,fill="orange")
+canvas.create_rectangle(150,410,240,600,fill="red")
+canvas.create_rectangle(300,310,400,600,fill="red")
+canvas.create_rectangle(700,410,800,600,fill="red")
+canvas.create_rectangle(260,100,500,200,fill="red")
+canvas.create_rectangle(510,200,750,300,fill="red")
+# canvas.create_rectangle(610,200,800,300)
+canvas.create_rectangle(760,100,900,250,fill="red")
+canvas.create_rectangle(910,260,1020,400,fill="red")
+window.mainloop()

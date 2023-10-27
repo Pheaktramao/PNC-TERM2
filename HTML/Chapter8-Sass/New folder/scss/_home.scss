@@ -1,0 +1,28 @@
+@import "./components/main";
+@import "./components/card";
+
+.main-container {
+    display: flex;
+    height: 90vh;
+}
+
+aside {
+    @include centered;
+    @include standard-text-content;
+    background: $main-color;
+    flex: 1;
+}
+
+main {
+    flex: 4;
+    padding: 20px;
+    h1{
+        @include text;
+        margin-bottom: 20px;
+    }
+    .group-cards{
+        display: flex;
+        flex-wrap: wrap;
+        gap: $gapValue;
+    }
+}

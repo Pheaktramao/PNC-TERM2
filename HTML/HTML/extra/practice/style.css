@@ -1,0 +1,92 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+nav {
+    background: #ef7c68;
+    flex:0.4;
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background: #da725f;
+    /* flex:9; */
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../bg.jpg);
+    background-size: cover;
+    background-position: 0 50% ;
+}
+.text{
+    width: 50%;
+}
+.container {
+    background: #c66756;
+    /* flex:5; */
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    justify-content: center;
+}
+.box {
+    width: 32%;
+    border:none;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../bobo.jpg);
+    background-position: 90%;
+}
+.contain{
+    background: #ab5a4c;
+    flex:3;
+    display: flex;
+}
+.containleft,
+.containright {
+    border:2px solid orange;
+    flex:1;
+    background: #fff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    background: #904d41;
+    flex:1;
+}
+nav ul{
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+nav ul li{
+    padding: 14px;
+    text-transform: uppercase;
+    list-style: none;
+}
+nav ul li a{
+    color: antiquewhite;
+}
+button{
+    border: none;
+    padding: 10px;
+    width: 120px;
+    background-color: #904d41;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    font-size: 17px;
+
+}

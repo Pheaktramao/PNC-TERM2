@@ -1,0 +1,17 @@
+@import "variable";
+nav {
+    background: $redcolor;
+    ul {
+        display: flex;
+        li{
+            padding: 15px;  
+            a{
+                color: $whitecolor;
+                text-transform: uppercase;
+            }   
+            .active {
+                background: $pinkycolor;
+            }   
+        }
+    }
+}
